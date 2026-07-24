@@ -124,7 +124,7 @@ body {
   min-height: 100vh;
 
   /* Fix 2: Full image fit */
-  background-image: url('health.png');
+  background-image: url('images/health.png');
   background-size: cover;          /* fills completely */
   background-position: center;     /* centers properly */
   background-repeat: no-repeat;    /* avoids repeating */
