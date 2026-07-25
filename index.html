@@ -1,151 +1,300 @@
-<!-- SURVEY PHOTOS -->
-<section id="survey-photos" class="section">
-  <div class="container">
-    <h2>Survey Photographs</h2>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Week 1 -->
-    <div class="photo-week">
-      <h3>Week 1 — Survey Photographs</h3>
-      <div class="gallery">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Arogya | Community Service Project 2025–26</title>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.30.51 PM (1).jpeg" alt="Week 1 Photo 1">
-          <figcaption>FIG: Observed improper waste disposal in nearby houses, including burning plastic in public areas.</figcaption>
-        </figure>
+  <!-- Premium Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.30.51 PM.jpeg" alt="Week 1 Photo 2">
-          <figcaption>FIG: Noticed lack of proper drinking water availability in the locality.</figcaption>
-        </figure>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.30.52 PM (1).jpeg" alt="Week 1 Photo 3">
-          <figcaption>FIG: Waste was being thrown openly, causing an unhygienic environment.</figcaption>
-        </figure>
+<body>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.30.52 PM.jpeg" alt="Week 1 Photo 4">
-          <figcaption>FIG: Identified the need for better waste management practices in the community.</figcaption>
-        </figure>
+  <!-- SCROLL PROGRESS BAR -->
+  <div id="progress-bar"></div>
+
+  <!-- ================= FLOATING PILL NAVBAR ================= -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="#home" class="logo">Project Arogya</a>
+
+      <nav class="main-nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#abstract">Abstract</a>
+        <a href="#journey">Journey</a>
+        <a href="#observations">Observations</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">☾</button>
+        <button id="nav-toggle" aria-label="Toggle Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="hero">
+    <div class="container hero-layout">
+
+      <div class="hero-content">
+        <span class="hero-tag hero-animate-1">Community Service Project | 2025–26</span>
+        <h1 class="hero-animate-2">HEALTH, HYGIENE &<br>COMMUNITY</h1>
+        <p class="hero-animate-3">
+          A comprehensive field study focused on assessing health and hygiene conditions in a selected local community, identifying sanitation concerns, documenting field observations, and presenting findings through a digital showcase.
+        </p>
+        <a href="#journey" class="cta hero-animate-4">
+          Explore Our Journey <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="hero-slider hero-animate-5">
+        <div class="slider-card" id="slider-card">
+          <img id="hero-photo" src="images/pic1.png" alt="Community Survey">
+          <button id="prev-photo" class="slider-btn prev" aria-label="Previous Image">❮</button>
+          <button id="next-photo" class="slider-btn next" aria-label="Next Image">❯</button>
+          <div class="slider-dots" id="slider-dots"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= BENTO GRID INTRODUCTION ================= -->
+  <section id="introduction" class="section introduction">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Project Overview</span>
+        <h2>Introduction & Strategic Approach</h2>
+      </div>
+
+      <!-- Bento Grid Layout -->
+      <div class="bento-grid">
+
+        <div class="bento-card bento-wide">
+          <div class="bento-content">
+            <div class="bento-icon">🏥</div>
+            <h3>What is Health and Hygiene?</h3>
+            <p>
+              Health and hygiene are essential components of a safe, healthy, and sustainable community. While health refers to physical, mental, and social well-being, hygiene includes everyday practices and environmental conditions that prevent disease transmission and ensure clean living environments.
+            </p>
+          </div>
+          <div class="bento-media">
+            <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80" alt="Doctor and Healthcare" loading="lazy">
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="bento-icon">🎯</div>
+          <h3>Project Purpose</h3>
+          <p>
+            Study health & hygiene conditions, identify unhygienic surroundings, conduct surveys with local residents, document field observations, and compile a comprehensive 7-week report.
+          </p>
+        </div>
+
+        <!-- 4-Stage Methodology Card -->
+        <div class="bento-card bento-full">
+          <div class="bento-icon">🚀</div>
+          <h3>Our 4-Stage Methodology</h3>
+          <div class="approach-grid">
+            <div class="approach-step">
+              <span class="step-num">01</span>
+              <h4>Initial Field Visit</h4>
+              <p>Preliminary site visit to assess general environmental conditions and survey feasibility.</p>
+            </div>
+            <div class="approach-step">
+              <span class="step-num">02</span>
+              <h4>Assessment & VRO Approval</h4>
+              <p>Identified sanitation concerns and secured official approval from the Village Revenue Officer (VRO).</p>
+            </div>
+            <div class="approach-step">
+              <span class="step-num">03</span>
+              <h4>Survey & Field Observation</h4>
+              <p>Conducted household surveys (Weeks 2–5) to record waste, water, and hygiene concerns.</p>
+            </div>
+            <div class="approach-step">
+              <span class="step-num">04</span>
+              <h4>Documentation & Showcase</h4>
+              <p>Compiled field data, prepared the formal CSP report, and engineered this digital showcase.</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
+  </section>
 
+  <!-- ================= EXECUTIVE ABSTRACT ================= -->
+  <section id="abstract" class="section abstract">
+    <div class="container">
 
-    <!-- Week 2 -->
-    <div class="photo-week">
-      <h3>Week 2 — Survey Photographs</h3>
-      <div class="gallery">
+      <div class="abstract-card">
+        <div class="abstract-layout">
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.59.41 PM (1).jpeg" alt="Week 2 Photo 1">
-          <figcaption>FIG: Interacted with school students to understand their hygiene practices and issues.</figcaption>
-        </figure>
+          <div class="abstract-text">
+            <span class="sub-heading">Executive Summary</span>
+            <h2>Abstract</h2>
+            <p>
+              Project Arogya is a Community Service Project focused on understanding and assessing health, hygiene, sanitation, and environmental conditions within a local community. The project aims to identify common hygiene-related challenges and understand the factors that influence the health and well-being of community residents. Through field visits, community surveys, direct interactions, and systematic observations, information was collected regarding cleanliness, waste management, sanitation practices, and the overall hygiene conditions of the surrounding environment.
+            </p>
+          </div>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.59.41 PM (2).jpeg" alt="Week 2 Photo 2">
-          <figcaption>FIG: Water quality observations and discussion.</figcaption>
-        </figure>
+          <!-- Impact Metrics Display -->
+          <div class="impact-metrics">
+            <div class="metric-card">
+              <span class="metric-number">7</span>
+              <span class="metric-label">Weeks Field Study</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">100+</span>
+              <span class="metric-label">Interactions & Points</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-number">1</span>
+              <span class="metric-label">Location</span>
+            </div>
+          </div>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.03.50 PM.jpeg" alt="Week 2 Photo 3">
-          <figcaption>FIG: Investigated water-related issues and awareness.</figcaption>
-        </figure>
+        </div>
+      </div>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 7.59.42 PM.jpeg" alt="Week 2 Photo 4">
-          <figcaption>FIG: Investigated water-related issues and awareness among residents.</figcaption>
-        </figure>
+    </div>
+  </section>
+
+  <!-- ================= PROJECT JOURNEY HUB ================= -->
+  <section id="journey" class="section journey">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">A Seven-Week Field Study</span>
+        <h2>Project Journey</h2>
+      </div>
+
+      <!-- Horizontal Pill Switcher -->
+      <div class="week-buttons">
+        <button class="week-btn active" data-week="1">Week 1</button>
+        <button class="week-btn" data-week="2">Week 2</button>
+        <button class="week-btn" data-week="3">Week 3</button>
+        <button class="week-btn" data-week="4">Week 4</button>
+        <button class="week-btn" data-week="5">Week 5</button>
+        <button class="week-btn" data-week="6">Week 6</button>
+        <button class="week-btn" data-week="7">Week 7</button>
+      </div>
+
+      <div class="journey-content">
+        <div class="interaction-content">
+          <h3 id="week-title">Week 1 — Initial Visit & Location Assessment</h3>
+          <p id="week-description">
+            Visited the proposed community location to assess surroundings and identify visible sanitation and environmental concerns.
+          </p>
+          <ul id="week-points">
+            <!-- Dynamically injected via script.js -->
+          </ul>
+        </div>
+
+        <!-- Interactive Journey Photo Slider -->
+        <div class="journey-slider-wrapper" id="journey-slider-wrapper">
+          <div class="slider-card" id="journey-slider-card">
+            <img id="journey-photo" src="images/WhatsApp Image 2025-11-21 at 7.30.51 PM (1).jpeg" alt="Survey Photo">
+            <button id="prev-journey-photo" class="slider-btn prev" aria-label="Previous Image">❮</button>
+            <button id="next-journey-photo" class="slider-btn next" aria-label="Next Image">❯</button>
+            <div class="slider-dots" id="journey-slider-dots"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= KEY AREAS OBSERVED ================= -->
+  <section id="observations" class="section observations">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-heading">Field Observations</span>
+        <h2>Key Areas Observed</h2>
+      </div>
+
+      <div class="obs-grid">
+
+        <div class="obs-card">
+          <div class="obs-icon">🧹</div>
+          <h3>Cleanliness & Surroundings</h3>
+          <p>Assessed overall cleanliness in public and residential spaces, highlighting key areas needing maintenance.</p>
+        </div>
+
+        <div class="obs-card">
+          <div class="obs-icon">🗑️</div>
+          <h3>Waste Management</h3>
+          <p>Documented refuse accumulation, community disposal habits, and municipal waste handling routines.</p>
+        </div>
+
+        <div class="obs-card">
+          <div class="obs-icon">🚰</div>
+          <h3>Water & Sanitation</h3>
+          <p>Evaluated drinking water availability, drainage conditions, and local sanitation facilities.</p>
+        </div>
+
+        <div class="obs-card">
+          <div class="obs-icon">🏘️</div>
+          <h3>Environmental Hygiene</h3>
+          <p>Recorded environmental indicators affecting local air, drainage, and neighborhood health safety.</p>
+        </div>
+
+        <div class="obs-card obs-wide">
+          <div class="obs-icon">👨‍👩‍👧</div>
+          <h3>Community Health Awareness</h3>
+          <p>Engaged directly with residents to gauge awareness regarding hygiene habits, disease prevention, and public sanitation responsibility.</p>
+        </div>
 
       </div>
     </div>
+  </section>
 
+  <!-- ================= FULLSCREEN OCEAN WAVE CONCLUSION ================= -->
+  <section id="conclusion" class="conclusion-fullscreen">
+    <div class="conclusion-wrapper">
+      <span class="sub-heading" style="color: rgba(255,255,255,0.85);">Project Outcomes</span>
+      <h2>Conclusion</h2>
+      <p>
+        Project Arogya provided valuable practical insights into community health challenges through direct field surveying, household interactions, and official administrative coordination with the Village Revenue Officer (VRO).
+      </p>
+      <p style="margin-top: 15px; font-size: clamp(1rem, 1.3vw, 1.2rem); opacity: 0.9;">
+        By systematically mapping hygiene conditions and compiling field data, this 7-week initiative strengthened our civic responsibility while highlighting the vital role of environmental cleanliness in public health.
+      </p>
+    </div>
+  </section>
 
-    <!-- Week 3 -->
-    <div class="photo-week">
-      <h3>Week 3 — Survey Photographs</h3>
-      <div class="gallery">
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.08.35 PM (1).jpeg" alt="Week 3 Photo 1">
-          <figcaption>FIG: Checking household hygiene adoption.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.08.35 PM (2).jpeg" alt="Week 3 Photo 2">
-          <figcaption>FIG: Promoting covered water storage.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.08.35 PM.jpeg" alt="Week 3 Photo 3">
-          <figcaption>FIG: Promoting health and hygiene practices.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.08.36 PM.jpeg" alt="Week 3 Photo 4">
-          <figcaption>FIG: Marking drainage and sanitation issues.</figcaption>
-        </figure>
-
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="contact-card">
+        <h2>Connect With Project Arogya</h2>
+        <p>For questions, survey data, or further information regarding our field study:</p>
+        <a href="mailto:projectarogya@example.com" class="email-badge">
+          ✉ projectarogya@example.com
+        </a>
       </div>
     </div>
+  </section>
 
+  <footer>
+    <p>© 2026 Project Arogya — Community Service Showcase</p>
+  </footer>
 
-    <!-- Week 4 -->
-    <div class="photo-week">
-      <h3>Week 4 — Survey Photographs</h3>
-      <div class="gallery">
+  <button id="back-to-top" aria-label="Back to top">↑</button>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.09.54 PM (1).jpeg" alt="Week 4 Photo 1">
-          <figcaption>FIG: Checked availability of clean drinking water and identified gaps in supply.</figcaption>
-        </figure>
+  <script src="script.js"></script>
+</body>
 
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.09.54 PM.jpeg" alt="Week 4 Photo 2">
-          <figcaption>FIG: Examined local waste disposal systems and suggested improvements.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.09.55 PM.jpeg" alt="Week 4 Photo 3">
-          <figcaption>FIG: Educated residents about basic hygiene practices.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.09.58 PM.jpeg" alt="Week 4 Photo 4">
-          <figcaption>FIG: Engaged with community members to promote sanitation.</figcaption>
-        </figure>
-
-      </div>
-    </div>
-
-
-    <!-- Week 5 -->
-    <div class="photo-week">
-      <h3>Week 5 — Survey Photographs</h3>
-      <div class="gallery">
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.10.25 PM (1).jpeg" alt="Week 5 Photo 1">
-          <figcaption>FIG: Demonstrated proper way to wear masks.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.10.25 PM.jpeg" alt="Week 5 Photo 2">
-          <figcaption>FIG: Distributed masks to students and community members.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.10.26 PM (1).jpeg" alt="Week 5 Photo 3">
-          <figcaption>FIG: Volunteers helping with mask distribution.</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/WhatsApp Image 2025-11-21 at 8.10.26 PM.jpeg" alt="Week 5 Photo 4">
-          <figcaption>FIG: Provided sanitizers to encourage hand sanitation.</figcaption>
-        </figure>
-
-      </div>
-    </div>
-
-  </div>
-</section>
+</html>
